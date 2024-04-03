@@ -21,8 +21,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub sweat-tek Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/sweat-tek/ShadedLibGDX</url>
+            <name>GitHub Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/MattisJensen/ShadedLibGDX</url>
         </repository>
     </distributionManagement>
 
@@ -75,12 +75,12 @@
         </dependency>
     </dependencies>
     <build>
-        <plugins>                                           
+        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.4.1</version>
-                <configuration>                
+                <configuration>
                     <relocations>
                         <relocation>
                             <pattern>com.badlogic.gdx.utils</pattern>
